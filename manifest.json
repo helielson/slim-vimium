@@ -1,0 +1,26 @@
+{
+  "name": "Slim Vimium",
+  "version": "0.1",
+  "description": "Vim mode on chrome",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "next-tab": {
+      "suggested_key": {
+        "default": "Ctrl+K",
+        "mac": "MacCtrl+K"
+      },
+      "description": "Navigates to the next tab (in the right)"
+    },
+    "previous-tab": {
+      "suggested_key": {
+        "default": "Ctrl+J",
+        "mac": "MacCtrl+J"
+      },
+      "description": "Navigates to the previous tab (in the left)"
+    }
+  }
+}
